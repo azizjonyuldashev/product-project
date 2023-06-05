@@ -49,12 +49,6 @@ header nav .nav__main2 ul li a{
     color: #22343D;
 }
 
-header nav .nav__main2 ul li a:hover{
-    font-weight: 600;
-    font-size: 20px;
-    color: #22343D;
-}
-
 header nav .nav__main2 button{
     width: 100px;
     height: 40px;
@@ -67,7 +61,7 @@ header nav .nav__main2 button{
 }
 
 header nav .nav__main2 .nav__button{
-    width: 110px;
+    width: 100px;
     height: 40px;
     background: #02897A;
     border-radius: 4px;
@@ -142,5 +136,59 @@ header .header__main .header__blok2 img{
     padding-top: 70px;
 }
 
-
 /* finish header */
+
+/* Timurbek main */
+
+main .main h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+.main__menu {
+    margin-left: 147px;
+    margin-top: 83px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+main .main_imgs {
+    width: 100px;
+    background: #000;
+}
+button{
+    margin-left: 40%;
+    text-align: center;
+    width: 175px;
+    height: 53px;
+    margin-top: 60px;
+    border-radius: 7px;
+    color: #fff;
+    background: #02897A;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    main .main__menu{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main .main__menu{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    main .main__menu{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+}
+
+/* Timurbek main */
