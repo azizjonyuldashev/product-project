@@ -212,7 +212,46 @@ font-size: 16px;
 color: #22343D;
 }
 /* ozodbek */
-
+/* ozodbek2 */
+.img{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.imgs1 p{
+    color: #22343D;
+}
+.imgs1 h2{
+    font-weight: 700;
+font-size: 24px;
+color: #22343D;
+}
+.imgs2 h2{
+    color: #02897A;
+    font-weight: 700;
+    font-size: 24px;
+}
+.imgs3 h2{
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+.imgs1{
+    
+background: #FFFFFF;
+border-radius: 8px;
+}
+.imgs2{
+    
+background: #FFFFFF;
+border-radius: 8px;
+}
+.imgs3{
+    
+background: #FFFFFF;
+border-radius: 8px;
+}
+/* ozodbek2 */
 @media screen and (max-width: 800px) {
     main .main__menu{
         display: grid;
