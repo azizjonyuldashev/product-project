@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -60,15 +60,34 @@ header nav .nav__main2 button{
     border-radius: 4px;
 }
 
-header nav .nav__main2 .nav__button{
-    width: 100px;
-    height: 40px;
-    background: #02897A;
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 16px;
-    color: #ffffff;
+header nav .btn {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    /* border: 1px solid black; */
 }
+
+.button {
+    width: 102px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buton {
+    width: 102px;
+    height: 40px;
+    text-align: center;
+    background: #02897A;
+    border: 2px solid black;
+    color: #fff;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 /* finish nav */
 
