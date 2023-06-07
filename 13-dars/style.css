@@ -1,0 +1,27 @@
+.blok{
+    align-items: center;
+    text-align: center;
+    width: 322px;
+    height: 350px;
+    border: solid 2px black;
+}
+.menu{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+}
+.blok_1{
+    align-items: center;
+    text-align: center;
+    width: 322px;
+    height: 350px;
+    border: solid 2px black;
+    background-color: green; 
+}
+button{
+    background-color: green;
+}
+.blok_1 button{
+    background-color: white;
+}
